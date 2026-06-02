@@ -39,7 +39,7 @@
       document.getElementById("result").innerText = "Processing...";
 
       // 你换成自己的LLM接口即可
-      const res = await fetch("sk-9e10a7b16f9240e6b0eeed661235b7a6", {
+      const res = await fetch("https://api.deepseek.com", {
         method:"POST",
         headers:{"Content-Type":"application/json"},
         body:JSON.stringify({
