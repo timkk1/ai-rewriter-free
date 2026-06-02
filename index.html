@@ -39,7 +39,7 @@
       document.getElementById("result").innerText = "Processing...";
 
       // 你换成自己的LLM接口即可
-      const res = await fetch("https://ws-66gdt82u17gr2xdf.cn-beijing.maas.aliyuncs.com/api/v1", {
+      const res = await fetch("https://dashscope-us.aliyuncs.com/compatible-mode/v1", {
         method:"POST",
         headers:{"Content-Type":"application/json"},
         body:JSON.stringify({
